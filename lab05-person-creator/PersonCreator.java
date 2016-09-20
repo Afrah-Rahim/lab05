@@ -32,8 +32,9 @@ public class PersonCreator
     
  /*
  * Description: This method is used to find the age of the user
- * Since this is void, there is no ouput
- * This method tells the age of user in years
+ * Output: void
+ * Purpose: This method tells the age of user in years
+ * Example: age = 5
  */ 
 public void getAge (int years) 
     { 
@@ -41,8 +42,10 @@ public void getAge (int years)
     } 
     
  /*
- * This method is used to find the sex of the user
- * Since this is void, there is no ouput
+ * Description: This method is used to find the sex of the user
+ * Output: void
+ * Purpose: Whether the user is female/male
+ * Example: sex = male
  */
     
     public void UserSex (String personSex)
@@ -51,9 +54,10 @@ public void getAge (int years)
     }
     
 /*
-* This method is used to find the height of the user
-* Since this is void, there is no ouput
-* This method gets the height of the user in centimeters
+* Description: This method is used to find the height of the user
+* Output: void
+* Purpose: This method gets the height of the user in centimeters
+* Example: 176
 */
 public void getHeight (int cm)
     {
@@ -61,9 +65,10 @@ public void getHeight (int cm)
     }
     
  /*
- * This method is used to find the weight of the user
- * Since this is void, there is no ouput
- *This method gets the weight of the user in pounds
+ * Description: This method is used to find the weight of the user
+ * Output:  void
+ * Purpose: This method gets the weight of the user in pounds
+ * Example; weight = 100
  */
 public void getWeight (int lbs)
     {
@@ -71,7 +76,10 @@ public void getWeight (int lbs)
     }
      
  /*
- * This method is used to get the social security number of the user
+ * Description:This method is used to get the social security number of the user
+ * Output: void
+ * Purpose: To get user's social security number 
+ * Example: SSN: 000-100-1000
  */
 public void getSocialSecurityNumber (int block1, int block2, int block3)
     {
