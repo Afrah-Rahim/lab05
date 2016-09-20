@@ -1,5 +1,5 @@
 
-/**
+/*
  * Write a description of class PersonCreator here.
  * This class is used to get the user's name, age, sex, height, weight, Social Security Number, 
  * Address, Phone Number, DOB
@@ -30,8 +30,8 @@ public class PersonCreator
     }
      
     
- /**
- * This method is used to find the age of the user
+ /*
+ * Description: This method is used to find the age of the user
  * Since this is void, there is no ouput
  * This method tells the age of user in years
  */ 
@@ -40,7 +40,7 @@ public void getAge (int years)
     age = years;
     } 
     
- /**
+ /*
  * This method is used to find the sex of the user
  * Since this is void, there is no ouput
  */
@@ -50,7 +50,7 @@ public void getAge (int years)
         sex = personSex;
     }
     
-/**
+/*
 * This method is used to find the height of the user
 * Since this is void, there is no ouput
 * This method gets the height of the user in centimeters
@@ -60,7 +60,7 @@ public void getHeight (int cm)
         height = cm;
     }
     
- /**
+ /*
  * This method is used to find the weight of the user
  * Since this is void, there is no ouput
  *This method gets the weight of the user in pounds
@@ -70,7 +70,7 @@ public void getWeight (int lbs)
         weight = lbs;
     }
      
- /**
+ /*
  * This method is used to get the social security number of the user
  */
 public void getSocialSecurityNumber (int block1, int block2, int block3)
@@ -95,7 +95,7 @@ public void getSocialSecurityNumber (int block1, int block2, int block3)
             
     }
     
-     /**
+ /*
  * This method is used to find the address of the user
  * Since this is void, there is no ouput
  */
@@ -104,7 +104,7 @@ public void getAddress (String local)
        address = local;
     }
     
-     /**
+  /*
  * This method is used to find the date of birth of the user
  * Since this is void, there is no ouput
  */
@@ -114,8 +114,9 @@ public void getDateOfBirth (String DOB)
 
     }
     
-      /**
- * This method is used to find the user's phone number
+ /*
+ * Description :This method is used to find the user's phone number
+ * 
  */
 public void GetPhoneNumer ( int areaCode, int numBegin, int numEnd)
      {
@@ -139,7 +140,7 @@ public void GetPhoneNumer ( int areaCode, int numBegin, int numEnd)
            
         }
         
-      /**
+  /*
  * This method is used to print all the user's given information
  * Since this is void, there is no ouput
  */    public void printForm()
