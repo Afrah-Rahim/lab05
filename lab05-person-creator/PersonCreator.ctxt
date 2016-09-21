@@ -1,31 +1,32 @@
 #BlueJ class context
 comment0.params=First\ Last
 comment0.target=PersonCreator(java.lang.String,\ java.lang.String)
+comment0.text=\ Description\:\ This\ methos\ is\ used\ to\ assign\ values\ for\ all\ the\ field\ variables\r\n\ Example;\ age\ \=\ 0\r\n
 comment1.params=years
 comment1.target=void\ getAge(int)
-comment1.text=\r\n\ This\ method\ is\ used\ to\ find\ the\ age\ of\ the\ user\r\n\ Since\ this\ is\ void,\ there\ is\ no\ ouput\r\n\ This\ method\ tells\ the\ age\ of\ user\ in\ years\r\n
+comment1.text=\r\n\ Description\:\ This\ method\ is\ used\ to\ find\ the\ age\ of\ the\ user\r\n\ Output\:\ void\r\n\ Purpose\:\ This\ method\ tells\ the\ age\ of\ user\ in\ years\r\n\ Example\:\ age\ \=\ 5\r\n
 comment2.params=personSex
 comment2.target=void\ UserSex(java.lang.String)
-comment2.text=\r\n\ This\ method\ is\ used\ to\ find\ the\ sex\ of\ the\ user\r\n\ Since\ this\ is\ void,\ there\ is\ no\ ouput\r\n
+comment2.text=\r\n\ Description\:\ This\ method\ is\ used\ to\ find\ the\ sex\ of\ the\ user\r\n\ Output\:\ void\r\n\ Purpose\:\ Whether\ the\ user\ is\ female/male\r\n\ Example\:\ sex\ \=\ male\r\n
 comment3.params=cm
 comment3.target=void\ getHeight(int)
-comment3.text=\r\n\ This\ method\ is\ used\ to\ find\ the\ height\ of\ the\ user\r\n\ Since\ this\ is\ void,\ there\ is\ no\ ouput\r\n\ This\ method\ gets\ the\ height\ of\ the\ user\ in\ centimeters\r\n
+comment3.text=\r\n\ Description\:\ This\ method\ is\ used\ to\ find\ the\ height\ of\ the\ user\r\n\ Output\:\ void\r\n\ Purpose\:\ This\ method\ gets\ the\ height\ of\ the\ user\ in\ centimeters\r\n\ Example\:\ 176\r\n
 comment4.params=lbs
 comment4.target=void\ getWeight(int)
-comment4.text=\r\n\ This\ method\ is\ used\ to\ find\ the\ weight\ of\ the\ user\r\n\ Since\ this\ is\ void,\ there\ is\ no\ ouput\r\nThis\ method\ gets\ the\ weight\ of\ the\ user\ in\ pounds\r\n
+comment4.text=\r\n\ Description\:\ This\ method\ is\ used\ to\ find\ the\ weight\ of\ the\ user\r\n\ Output\:\ \ void\r\n\ Purpose\:\ This\ method\ gets\ the\ weight\ of\ the\ user\ in\ pounds\r\n\ Example;\ weight\ \=\ 100\r\n
 comment5.params=block1\ block2\ block3
 comment5.target=void\ getSocialSecurityNumber(int,\ int,\ int)
-comment5.text=\r\n\ This\ method\ is\ used\ to\ get\ the\ social\ security\ number\ of\ the\ user\r\n
+comment5.text=\r\n\ Description\:This\ method\ is\ used\ to\ get\ the\ social\ security\ number\ of\ the\ user\r\n\ Output\:\ void\r\n\ Purpose\:\ To\ get\ user's\ social\ security\ number\ \r\n\ Example\:\ SSN\:\ 000-100-1000\r\n
 comment6.params=local
 comment6.target=void\ getAddress(java.lang.String)
-comment6.text=\r\n\ This\ method\ is\ used\ to\ find\ the\ address\ of\ the\ user\r\n\ Since\ this\ is\ void,\ there\ is\ no\ ouput\r\n
+comment6.text=\r\n\ Desription\:\ This\ method\ is\ used\ to\ find\ the\ address\ of\ the\ user\r\n\ Output\:\ void\r\n\ Purpose\:\ This\ method\ is\ used\ to\ get\ the\ street\ address\ of\ the\ user\r\n\ Example\:\ 256th\ St.,\ Queens\r\n
 comment7.params=DOB
 comment7.target=void\ getDateOfBirth(java.lang.String)
-comment7.text=\r\n\ This\ method\ is\ used\ to\ find\ the\ date\ of\ birth\ of\ the\ user\r\n\ Since\ this\ is\ void,\ there\ is\ no\ ouput\r\n
+comment7.text=\r\n\ Description\:\ This\ method\ is\ used\ to\ find\ the\ date\ of\ birth\ of\ the\ user\r\n\ Output\:\ void\r\n\ Purpose\:\ Methos\ is\ used\ to\ get\ the\ user's\ date\ of\ birth\ \r\n\ Example\:\ 24th\ of\ April\r\n
 comment8.params=areaCode\ numBegin\ numEnd
 comment8.target=void\ GetPhoneNumer(int,\ int,\ int)
-comment8.text=\r\n\ This\ method\ is\ used\ to\ find\ the\ user's\ phone\ number\r\n
+comment8.text=\r\n\ Description\ \:This\ method\ is\ used\ to\ find\ the\ user's\ phone\ number\r\n\ Output\:\ void\r\n\ Purpose\:\ To\ get\ user's\ phone\ number;\ split\ in\ three\ blocks\r\n\ Example\:\ PhoneNumber\:\ 123-234-3456\r\n
 comment9.params=
 comment9.target=void\ printForm()
-comment9.text=\r\n\ This\ method\ is\ used\ to\ print\ all\ the\ user's\ given\ information\r\n\ Since\ this\ is\ void,\ there\ is\ no\ ouput\r\n
+comment9.text=\r\n\ Description\:\ This\ method\ is\ used\ to\ print\ all\ the\ user's\ given\ information\r\n\ Output\:\ void\r\n\ Purpose\:\ The\ purpose\ of\ this\ method\ is\ to\ print\ the\ user's\ info\ \r\n\ Example\:\ User\ Name\:\ Jack\r\n\ \ \ \ \ \ \ \ \ \ \ \ User\ Age\:\ 25\r\n
 numComments=10

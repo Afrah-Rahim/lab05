@@ -1,8 +1,7 @@
 
 /*
- * Write a description of class PersonCreator here.
- * This class is used to get the user's name, age, sex, height, weight, Social Security Number, 
- * Address, Phone Number, DOB
+ * Description: This class is used to get the user's name, age, sex, height,
+  weight, Social Security Number, Address, Phone Number, DOB. 
  * @author (Afrah Rahim) 
  * @version (9/13/2016)
  */
@@ -18,6 +17,9 @@ public class PersonCreator
    private String phonenumber;
    private String dateofbirth;
    
+   /* Description: This methos is used to assign values for all the field variables
+    * Example; age = 0
+    */
    public PersonCreator (String First, String Last)
    { Name = First + "  " + Last;
        age = 0;
@@ -31,22 +33,22 @@ public class PersonCreator
      
     
  /*
- * Description: This method is used to find the age of the user
- * Output: void
- * Purpose: This method tells the age of user in years
- * Example: age = 5
- */ 
+  * Description: This method is used to find the age of the user
+  * Output: void
+  * Purpose: This method tells the age of user in years
+  * Example: age = 5
+  */ 
 public void getAge (int years) 
     { 
     age = years;
     } 
     
  /*
- * Description: This method is used to find the sex of the user
- * Output: void
- * Purpose: Whether the user is female/male
- * Example: sex = male
- */
+  * Description: This method is used to find the sex of the user
+  * Output: void
+  * Purpose: Whether the user is female/male
+  * Example: sex = male
+  */
     
     public void UserSex (String personSex)
     {
@@ -54,17 +56,17 @@ public void getAge (int years)
     }
     
 /*
-* Description: This method is used to find the height of the user
-* Output: void
-* Purpose: This method gets the height of the user in centimeters
-* Example: 176
-*/
+ * Description: This method is used to find the height of the user
+ * Output: void
+ * Purpose: This method gets the height of the user in centimeters
+ * Example: 176
+ */
 public void getHeight (int cm)
     {
         height = cm;
     }
     
- /*
+/*
  * Description: This method is used to find the weight of the user
  * Output:  void
  * Purpose: This method gets the weight of the user in pounds
@@ -75,7 +77,7 @@ public void getWeight (int lbs)
         weight = lbs;
     }
      
- /*
+/*
  * Description:This method is used to get the social security number of the user
  * Output: void
  * Purpose: To get user's social security number 
@@ -88,33 +90,40 @@ public void getSocialSecurityNumber (int block1, int block2, int block3)
          {
              System.err.println (" That is invalid. ");
              
-            } else if (block2 < 100 || block2 >999) 
+            } 
+            else if (block2 < 100 || block2 >999)
             { 
                 System.err.println (" That is invalid. ");
                 
-            } else if (block3 < 1000 || block3 >9999) 
+            } 
+            else if (block3 < 1000 || block3 >9999) 
             { 
                 System.err.println (" That is invalid. ");
                 
             }
-            else {
+            else
+            {
                  socialsecuritynumber = block1 + " - " + block2 + " - " + block3;
                 }
             
     }
     
- /*
- * This method is used to find the address of the user
- * Since this is void, there is no ouput
+/*
+ * Desription: This method is used to find the address of the user
+ * Output: void
+ * Purpose: This method is used to get the street address of the user
+ * Example: 256th St., Queens
  */
 public void getAddress (String local)
     {
        address = local;
-    }
+    } 
     
-  /*
- * This method is used to find the date of birth of the user
- * Since this is void, there is no ouput
+ /*
+ * Description: This method is used to find the date of birth of the user
+ * Output: void
+ * Purpose: Methos is used to get the user's date of birth 
+ * Example: 24th of April
  */
 public void getDateOfBirth (String DOB)
     { 
@@ -122,9 +131,11 @@ public void getDateOfBirth (String DOB)
 
     }
     
- /*
+/*
  * Description :This method is used to find the user's phone number
- * 
+ * Output: void
+ * Purpose: To get user's phone number; split in three blocks
+ * Example: PhoneNumber: 123-234-3456
  */
 public void GetPhoneNumer ( int areaCode, int numBegin, int numEnd)
      {
@@ -132,26 +143,33 @@ public void GetPhoneNumer ( int areaCode, int numBegin, int numEnd)
          {
              System.err.println (" That is invalid. ");
              
-            } else if (numBegin < 100 || numBegin >999) 
+            }
+            else if (numBegin < 100 || numBegin >999) 
             { 
                 System.err.println (" That is invalid. ");
                 
-            } else if (numEnd < 1000 || numEnd >9999) 
+            } 
+            else if (numEnd < 1000 || numEnd >9999) 
             { 
                 System.err.println (" That is invalid. ");
                 
             }
-            else {
+            else 
+            {
                  phonenumber= areaCode + " - " + numBegin + " - " + numEnd;
                 }
             
            
         }
         
-  /*
- * This method is used to print all the user's given information
- * Since this is void, there is no ouput
- */    public void printForm()
+/*
+ * Description: This method is used to print all the user's given information
+ * Output: void
+ * Purpose: The purpose of this method is to print the user's info 
+ * Example: User Name: Jack
+            User Age: 25
+ */   
+    public void printForm()
     {
        
         System.out.println("User Name: " + Name);
@@ -171,6 +189,7 @@ public void GetPhoneNumer ( int areaCode, int numBegin, int numEnd)
         System.out.println("Phone Number:" + phonenumber);
         System.out.println ("     ");
         System.out.println("Social Security Number:" + socialsecuritynumber);
+        System.out.println ("-----------------------------");
 
         
     }
